@@ -1,0 +1,218 @@
+.body{
+	font-family:"Comic Sans MS", cursive, sans-serif ;
+	font-size: 20px;
+	font-weight: normal;
+	background-position: fixed;
+	text-align: center;
+	background-image: url(../images/astro.jpg)  ;
+
+	background-size: 100%;
+	color:black;
+
+}
+
+
+
+
+.title{
+	font-size: 36px;
+}
+
+.tables{
+	
+	border: 3px solid teal;
+	margin:auto;
+	margin-bottom: 20px;
+
+	}
+
+
+
+h1{
+	font-size: 46px;
+	font-weight: bold;
+}
+button {
+    padding: 20px;
+    transition: all 5s;
+
+}
+
+button:hover {
+    /*transform: translate(0px, -20px);*/
+    transform: scale(1.5);
+    /*transform: rotate(45deg);*/
+}
+
+
+
+}
+section{
+	border-bottom: 1px solid teal;
+}
+
+img{
+	width: 300px;
+	height: 300px;
+	padding: 5px;
+	border-radius: 35px;
+	opacity:0.8;
+	margin: 20px;
+
+
+	
+
+}
+
+.panel{
+	background: #f2f2f2;
+	opacity: 0.8;
+	border-radius: 15px;
+
+
+
+}
+
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 75%;
+height: 75%;
+max-width: 960px;
+max-height: 550px;
+
+}
+
+
+#navbar a{
+
+	font-size: 18px;
+	padding: 15px ;
+}
+
+#mynavbar{
+ border-radius:12px;
+ opacity:0.9;
+  position: sticky;
+    top: 0;
+    z-index:1;
+ 
+}
+
+.nav-link {
+font-family:American Typewriter, serif;
+font-size: 18px;
+font-weight:500;
+
+ }
+
+
+
+/*#navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  
+
+}*/
+
+
+
+
+
+
+
+.social{
+	
+}
+
+ul#menu li {
+    display:inline;
+}
+
+
+.form-group{
+
+	
+	
+}
+
+#carouselExampleControls{
+max-width: 600px;
+margin: 0% 25%;
+/*align-items: left;*/
+}
+
+@keyframes pulse{
+from{
+	color:black;
+}
+to{
+	color:#c5b358;
+}
+}
+
+.disco{
+	/*animation: pulse 1s infinite;*/
+}
+
+.desc{
+	animation: pulse 1s infinite;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    max-width: 500px;
+    display: inline-flex;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color:#c5b358;
+}
+
+footer{
+	border: 1px solid #ffffff;
+	background:silver;
+	opacity:0.7;
+}
+
+.gallery1{
+	display: flex;
+	object-position: center;
+	}
+
+.carousel-item{
+	
+}
+/**{
+	border: 1px solid red;
+}*/
+
+.text{
+
+	color:white;
+}
+
